@@ -4,6 +4,7 @@
 
 import React from 'react';
 import {StatusBar, StyleSheet, Text, useColorScheme, View} from 'react-native';
+import Realm from 'realm';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
